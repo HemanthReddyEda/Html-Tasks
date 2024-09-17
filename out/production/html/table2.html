@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            tables
+        </title>
+        <style>
+            table,th,td{
+                border:1px solid gray;
+            }
+            table{
+                border-collapse: collapse;
+                width:50%;
+                text-align: center;
+                margin: auto;
+            }
+            td,th{
+                height: 30px;
+            }
+            tr:nth-child(odd){
+                background-color: aqua;
+            }
+            tr:nth-child(even){
+                background-color: grey;
+            }
+            tr:hover{
+                background-color: aliceblue;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="1" align="center">
+            <tr>
+                <td>p_id</td>
+                <td>p_name</td>
+                <td>p_cost</td>
+            </tr>
+            <tr>
+                <td rowspan="2">111 <br>
+                    222</td>
+                <td rowspan="3">laptop <br>desktop<br>tablet</td> 
+                <td>10000</td>
+            </tr>
+            <tr>
+                <td>9000</td>
+            </tr>
+            <tr>
+                <td>333</td>
+                
+                <td>8000</td>
+            </tr>
+            <tr>
+                <td>444</td>
+                <td>smartmobile</td>
+                <td>7000</td>
+            </tr>
+            <tr>
+                <td>555</td>
+                <td>smartwatches</td>
+                <td>6000</td>
+            </tr>
+        </table>
+    </body>
+</html>

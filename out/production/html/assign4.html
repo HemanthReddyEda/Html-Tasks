@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(238, 241, 245);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        .login-box {
+            display: flex;
+            width: 700px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .login-left {
+            background-color: rgb(40, 116, 240);
+            color: white;
+            padding: 40px;
+            width: 45%;
+            box-sizing: border-box;
+        }
+        .login-left h2 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .login-left p {
+            margin: 20px 0 0;
+            font-size: 14px;
+        }
+        .login-left img {
+            margin-top: 50px;
+            width: 100%;
+        }
+        .login-right {
+            padding: 40px;
+            width: 55%;
+            box-sizing: border-box;
+        }
+        .login-right input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid rgb(158, 158, 158);
+            border-radius: 2px;
+            font-size: 14px;
+        }
+        .login-right p {
+            font-size: 12px;
+            color: rgb(113, 109, 109);
+        }
+        .login-right p a {
+            color: rgb(77, 138, 237);
+            text-decoration: none;
+        }
+        .login-right p a:hover {
+            text-decoration: underline;
+        }
+        .login-right button {
+            width: 100%;
+            background-color: rgb(223, 93, 28);
+            color: white;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 2px;
+        }
+        .login-right button:hover {
+            background-color: rgb(243, 86, 34);
+        }
+        .login-right .new-account {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 12px;
+        }
+        .login-right .new-account a {
+            color: rgb(57, 104, 247);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="login-box">
+        <div class="login-left">
+            <h2>Login</h2>
+            <p>Get access to your Orders, Wishlist and Recommendations</p>
+            <img src="flipkart logo.png" alt="Login Illustration">
+        </div>
+        <div class="login-right">
+            <input type="text" placeholder="Enter Email/Mobile number">
+            <p>By continuing, you agree to Flipkart's <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></p>
+            <button type="submit">Request OTP</button>
+            <div class="new-account">
+                New to Flipkart? <a href="#">Create an account</a>
+            </div>
+        </div>
+    </div>
+</div
+
+</body>
+</html>
